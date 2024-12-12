@@ -70,4 +70,5 @@ RUN apt-get remove --purge -y \
 
 # Run the Django project via the runtime script
 # when the container starts
+# This seems specific to railway
 CMD ./paracord_runner.sh
